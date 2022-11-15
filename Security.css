@@ -1,0 +1,320 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  max-width: 100%;
+}
+
+a{
+
+text-decoration: none;
+color: #99afe1;
+
+}
+
+.enter {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.system {
+  width: 20%;
+  color: black;
+  font-size: 13px;
+}
+
+.security {
+  width: 20%;
+  position: relative;
+  color: grey;
+}
+
+.icons {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.security i {
+  padding: 0 13px;
+  font-size: 12px;
+}
+
+/* ///secodnd one// */
+.search {
+  display: flex;
+}
+
+.system1 {
+  width: 12%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.long {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #eeeeee;
+  align-items: center;
+  font-size: 13px;
+}
+
+#use {
+  font-size: 10px;
+  position: relative;
+  top: 25px;
+  left: 10px;
+}
+
+.long i {
+  padding: 0px 5px;
+  font-size: 15px;
+}
+
+.security2 {
+  width: 20%;
+}
+
+input[type="text"] {
+  width: 95%;
+  height: 43px;
+  box-sizing: border-box;
+  border: 2px solid #eeeeee;
+  font-size: 13px;
+  background-color: white;
+  background-image: url("./Image/search-icon-png-18.png");
+  background-size: 20px 20px;
+  background-position: 230px ;
+  background-repeat: no-repeat;
+  float: right;
+}
+
+.system1 i {
+  padding: 0 10px;
+}
+
+/* //third one// */
+
+.data {
+  display: flex;
+  height: 635px;
+}
+
+.list {
+  width: 20%;
+  font-size: 13px;
+}
+
+.list1 {
+  padding: 30px 0px;
+}
+
+.rang {
+  font-size: 14px;
+  color: #a3ab4c;
+  padding: 3px 0;
+}
+
+.ranga {
+  font-size: 12px;
+  color: #99afe1;
+}
+
+.list1 li {
+  padding: 10px 30px;
+  list-style-type: none;
+}
+
+.info {
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.diva {
+  display: flex;
+  padding: 2px 40px;
+}
+
+.a1 {
+  width: 55%;
+  padding: 4.5px 30px;
+}
+
+.a11 {
+  width: 4%;
+  display: flex;
+  align-items: center;
+}
+
+.foot {
+  width: 100%;
+  background-color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foot i {
+  padding: 0px 15px;
+}
+
+/* ////Media queries// */
+@media screen and (max-width: 768px) {
+
+    * {
+    margin: 0%;
+    padding: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+  body {
+    background-color: white;
+  }
+
+  .enter {
+    display: flex;
+  }
+
+  .system {
+    width: 350px;
+    color: black;
+    font-size: 10px;
+    padding: 25px 0px;
+  }
+
+  .security {
+    width: 300px;
+    color: grey;
+  }
+
+  .icons {
+    padding: 20px 0;
+  }
+
+  /* // second one// */
+
+  .search {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .system1 {
+    width: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 50px;
+  }
+
+  .long {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #eeeeee;
+    align-items: center;
+    font-size: 10px;
+    margin-bottom: 15px;
+    padding: 10px 0px;
+  }
+
+  .long i {
+    font-size: 10px;
+  }
+
+  .security2 {
+    width: 100%;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #eeeeee;
+    font-size: 13px;
+    background-color: white;
+    background-image: url("./Image/search-icon-png-18.png");
+    background-size: 20px 20px;
+    background-position: 260px 10px;
+    background-repeat: no-repeat;
+  }
+
+  .system1 i {
+    padding: 0 10px;
+  }
+
+  /* //third// */
+
+  .data {
+    display: flex;
+    flex-direction: column;
+    height: 1300px;
+  }
+
+  .list {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .list1 {
+    padding: 30px 0px;
+  }
+
+  .rang {
+    font-size: 12px;
+    color: #a3ab4c;
+    padding: 3px 0;
+  }
+
+  .ranga {
+    font-size: 10px;
+    color: #99afe1;
+  }
+
+  .list1 li {
+    padding: 10px 30px;
+    list-style-type: none;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+
+  .diva {
+    display: flex;
+    padding: 2px 40px;
+  }
+
+  .a1 {
+    width: 55%;
+    padding: 4.5px 30px;
+  }
+
+  .a11 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+
+  .foot {
+   
+ display: none;
+
+  }
+
+}
